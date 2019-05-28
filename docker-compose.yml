@@ -1,0 +1,60 @@
+version: '3.3'
+
+services:
+  photon:
+    image: itzg/minecraft-server
+    volumes:
+      - "./servers/photon/config:/data/config"
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.12.2"
+      TYPE: "FORGE"
+      FORGEVERSION: "14.23.5.2837"
+      CONSOLE: "false"
+      MEMORY: "4G"
+      ONLINE_MODE: "FALSE"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "ChangeMe"
+      RCON_PORT: 28016
+      MODPACK: "https://www.dropbox.com/s/7cirb6fhqwp5lvb/mods.zip?dl=1?fixscript=.zip"
+      MODCONFIG: "https://www.dropbox.com/s/tb3gjb5acad6c15/proton_config.zip?dl=1?fixscript=.zip"
+    env_file:
+      - ./luckperm.env
+    restart: unless-stopped
+
+  lobby:
+    image: itzg/minecraft-server
+    volumes:
+      - "./servers/lobby/config:/data/config"
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.12.2"
+      TYPE: "SPONGEVANILLA"
+      SPONGEVERSION: "1.12.2-7.1.5"
+      CONSOLE: "false"
+      MEMORY: "1G"
+      ONLINE_MODE: "FALSE"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "ChangeMe"
+      RCON_PORT: 28016
+      MODPACK: "https://www.dropbox.com/s/k3k4rs4lnrqf1k3/plugins.zip?dl=1?fixscript=.zip"
+      MODCONFIG: "https://www.dropbox.com/s/aiahqluazil5lfj/lobby_config.zip?dl=1?fixscript=.zip"
+    env_file:
+      - ./luckperm.env
+    restart: unless-stopped
+
+  bungeecord:
+    image: itzg/bungeecord
+    ports:
+      - 25577:25577
+    volumes:
+      - "./servers/bungeecord/config.yml:/server/config.yml"
+      - "./servers/bungeecord/plugins:/plugins"
+    restart: unless-stopped
+
+  rcon:
+    image: itzg/rcon
+    ports:
+      - "4326:4326"
+      - "4327:4327"
+    restart: unless-stopped

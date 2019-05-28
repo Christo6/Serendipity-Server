@@ -1,0 +1,33 @@
+
+# Created by https://www.gitignore.io/api/compressed,executable
+# Edit at https://www.gitignore.io/?templates=compressed,executable
+
+### Compressed ###
+*.7z
+*.deb
+*.gz
+*.pkg
+*.rar
+*.rpm
+*.sit
+*.sitx
+*.tar
+*.zip
+*.zipx
+*.tgz
+
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+# End of https://www.gitignore.io/api/compressed,executable
+
+.directory
