@@ -1,0 +1,307 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2831",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Photon",
+  "version": "1.0.0",
+  "author": "sssssss340",
+  "files": [
+    {
+      "projectID": 53686,
+      "fileID": 2704702,
+      "name": "Abyssalcraft",
+      "required": true
+    },
+    {
+      "projectID": 225635,
+      "fileID": 2609648,
+      "name": "Agricraft",
+      "required": true
+    },
+    {
+      "projectID": 224472,
+      "fileID": 2679415,
+      "name": "AppleCore",
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 2711582,
+      "name": "AutoRegLib",
+      "required": true
+    },
+    {
+      "projectID": 220318,
+      "fileID": 2711162,
+      "name": "Biomes O'Plenty",
+      "required": true
+    },
+    {
+      "projectID": 228932,
+      "fileID": 2333195,
+      "name": "Carpenter's Block",
+      "required": true
+    },
+    {
+      "projectID": 235279,
+      "fileID": 2619468,
+      "name": "Chisel",
+      "required": true
+    },
+    {
+      "projectID": 231095,
+      "fileID": 2703696,
+      "name": "Chisels & Bits",
+      "required": true
+    },
+    {
+      "projectID": 287683,
+      "fileID": 2701828,
+      "name": "Construct's Armory",
+      "required": true
+    },
+    {
+      "projectID": 239197,
+      "fileID": 2694048,
+      "name": "CraftTweaker",
+      "required": true
+    },
+    {
+      "projectID": 79616,
+      "fileID": 2621015,
+      "name": "Decocraft",
+      "required": true
+    },
+    {
+      "projectID": 229260,
+      "fileID": 2628698,
+      "name": "Mo' Creatures",
+      "required": true
+    },
+    {
+      "projectID": 225561,
+      "fileID": 2678374,
+      "name": "Extra Utilities",
+      "required": true
+    },
+    {
+      "projectID": 237167,
+      "fileID": 2707591,
+      "name": "FTBLib",
+      "required": true
+    },
+    {
+      "projectID": 225957,
+      "fileID": 2499443,
+      "name": "Hardcore Darkness",
+      "required": true
+    },
+    {
+      "projectID": 224476,
+      "fileID": 2565122,
+      "name": "Hunger Overhaul",
+      "required": true
+    },
+    {
+      "projectID": 253449,
+      "fileID": 2568751,
+      "name": "Hwyla",
+      "required": true
+    },
+    {
+      "projectID": 231951,
+      "fileID": 2676501,
+      "name": "Immersive Engineering",
+      "required": true
+    },
+    {
+      "projectID": 251396,
+      "fileID": 2537265,
+      "name": "InfinityLib",
+      "required": true
+    },
+    {
+      "projectID": 223094,
+      "fileID": 2482481,
+      "name": "Inventory Tweaks",
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 2710384,
+      "name": "Just Enough Items",
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 2682920,
+      "name": "JourneyMap",
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 2693483,
+      "name": "Mantle",
+      "required": true
+    },
+    {
+      "projectID": 59693,
+      "fileID": 2483852,
+      "name": "Minecraft Comes Alive",
+      "required": true
+    },
+    {
+      "projectID": 220954,
+      "fileID": 2693544,
+      "name": "ModTweaker",
+      "required": true
+    },
+    {
+      "projectID": 253211,
+      "fileID": 2684561,
+      "name": "MTLib",
+      "required": true
+    },
+    {
+      "projectID": 228816,
+      "fileID": 2699056,
+      "name": "OpenBlocks",
+      "required": true
+    },
+    {
+      "projectID": 228815,
+      "fileID": 2699055,
+      "name": "OpenModsLib",
+      "required": true
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2650315,
+      "name": "Pam's Harvestcraft",
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 2694382,
+      "name": "Placebo",
+      "required": true
+    },
+    {
+      "projectID": 241665,
+      "fileID": 2707714,
+      "name": "Psi",
+      "required": true
+    },
+    {
+      "projectID": 291499,
+      "fileID": 2685154,
+      "name": "PTRLib",
+      "required": true
+    },
+    {
+      "projectID": 243121,
+      "fileID": 2711580,
+      "name": "Quark",
+      "required": true
+    },
+    {
+      "projectID": 77286,
+      "fileID": 2483855,
+      "name": "RadixCore",
+      "required": true
+    },
+    {
+      "projectID": 59816,
+      "fileID": 2697894,
+      "name": "Random Things",
+      "required": true
+    },
+    {
+      "projectID": 245281,
+      "fileID": 2612423,
+      "name": "Silent's Gems: Extra Parts",
+      "required": true
+    },
+    {
+      "projectID": 299343,
+      "fileID": 2605909,
+      "name": "Silent's Gems: TiC Support",
+      "required": true
+    },
+    {
+      "projectID": 268495,
+      "fileID": 2703012,
+      "name": "Simple Storage Network",
+      "required": true
+    },
+    {
+      "projectID": 220811,
+      "fileID": 2571951,
+      "name": "The Spice of Life",
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 2693496,
+      "name": "Tinkers Construct",
+      "required": true
+    },
+    {
+      "projectID": 250957,
+      "fileID": 2630860,
+      "name": "Tinkers' Tool Leveling",
+      "required": true
+    },
+    {
+      "projectID": 244258,
+      "fileID": 2652588,
+      "name": "UniDict",
+      "required": true
+    },
+    {
+      "projectID": 253043,
+      "fileID": 2651482,
+      "name": "WanionLib",
+      "required": true
+    },
+    {
+      "projectID": 224712,
+      "fileID": 2707185,
+      "name": "Wawla",
+      "required": true
+    },
+    {
+      "projectID": 255902,
+      "fileID": 2661187,
+      "name": "Wither Skeleton Tweaks",
+      "required": true
+    },
+    {
+      "projectID": 244049,
+      "fileID": 2688432,
+      "name": "Woot",
+      "required": true
+    },
+    {
+      "projectID": 255177,
+      "fileID": 2706379,
+      "name": "Yabba",
+      "required": true
+    }
+  ],
+  "thirdParty": [
+    {
+      "url": "https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.12.2-2768-7.1.5/spongeforge-1.12.2-2768-7.1.5.jar",
+      "name": "SpongeForge"
+    }
+  ],
+  "overrides": "overrides"
+}

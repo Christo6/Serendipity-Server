@@ -1,0 +1,39 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2831",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "SkyFactory4",
+  "version": "4.0.5",
+  "author": "Darkosto, FirstNecron, Blargerist",
+  "files": [
+    {
+      "projectID": 225608,
+      "fileID": 2655056,
+      "name": "WorldEdit",
+      "required": true
+    }
+  ],
+  "thirdParty": [
+    {
+      "url": "https://github.com/Arckenver/Nations/releases/download/v2.11_api7/Nations-2.11-S7.0-MC1.12.1.jar",
+      "name": "Nations"
+    },
+    {
+      "url": "https://github.com/NucleusPowered/Nucleus/releases/download/1.10.0/Nucleus-1.10.0-S7.1-MC1.12.2-plugin.jar",
+      "name": "Nucleus"
+    },
+    {
+      "url": "https://ci.lucko.me/job/LuckPerms/911/artifact/sponge/build/libs/LuckPerms-Sponge-4.4.22.jar",
+      "name": "LuckPerms"
+    }
+  ],
+  "overrides": "overrides"
+}
