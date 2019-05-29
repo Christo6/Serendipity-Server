@@ -2,9 +2,11 @@ version: '3.3'
 
 services:
   photon:
-    image: itzg/minecraft-server
+    build: dockerfiles/minecraft-server/
+    image: crae/minecraft-server
     volumes:
-      - "./servers/photon/config:/data/config"
+      - "./servers/photon/config:/config"
+      - "./servers/photon/mods:/mods"
     environment:
       EULA: "TRUE"
       VERSION: "1.12.2"
@@ -16,16 +18,15 @@ services:
       ENABLE_RCON: "true"
       RCON_PASSWORD: "ChangeMe"
       RCON_PORT: 28016
-      MODPACK: "https://www.dropbox.com/s/7cirb6fhqwp5lvb/mods.zip?dl=1?fixscript=.zip"
-      MODCONFIG: "https://www.dropbox.com/s/tb3gjb5acad6c15/proton_config.zip?dl=1?fixscript=.zip"
     env_file:
       - ./luckperm.env
     restart: unless-stopped
 
   lobby:
-    image: itzg/minecraft-server
+    image: crae/minecraft-server
     volumes:
-      - "./servers/lobby/config:/data/config"
+      - "./servers/lobby/config:/config"
+      - "./servers/lobby/mods:/mods"
     environment:
       EULA: "TRUE"
       VERSION: "1.12.2"
@@ -37,8 +38,6 @@ services:
       ENABLE_RCON: "true"
       RCON_PASSWORD: "ChangeMe"
       RCON_PORT: 28016
-      MODPACK: "https://www.dropbox.com/s/k3k4rs4lnrqf1k3/plugins.zip?dl=1?fixscript=.zip"
-      MODCONFIG: "https://www.dropbox.com/s/aiahqluazil5lfj/lobby_config.zip?dl=1?fixscript=.zip"
     env_file:
       - ./luckperm.env
     restart: unless-stopped

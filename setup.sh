@@ -22,3 +22,4 @@ for SERVER in $BASE_DIR/servers/*; do
 	fi
 done
 
+docker-compose up -d

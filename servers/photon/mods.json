@@ -63,15 +63,27 @@
       "required": true
     },
     {
-      "projectID": 287683,
-      "fileID": 2701828,
-      "name": "Construct's Armory",
+      "projectID": 239197,
+      "fileID": 2713681,
+      "name": "CraftTweaker",
       "required": true
     },
     {
-      "projectID": 239197,
-      "fileID": 2694048,
-      "name": "CraftTweaker",
+      "projectID": 220311,
+      "fileID": 2703594,
+      "name": "Silent's Gems",
+      "required": true
+    },
+    {
+      "projectID": 242998,
+      "fileID": 2675924,
+      "name": "Silent Lib",
+      "required": true
+    },
+    {
+      "projectID": 287683,
+      "fileID": 2701828,
+      "name": "Construct's Armory",
       "required": true
     },
     {
